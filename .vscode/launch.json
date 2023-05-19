@@ -1,0 +1,169 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "wb5_10",
+            "request": "launch",
+            "mainClass": "wb5_10",
+            "projectName": "boot_camp_7101d49a"
+        },
+        {
+            "type": "java",
+            "name": "wb5_9",
+            "request": "launch",
+            "mainClass": "wb5_9",
+            "projectName": "boot_camp_7101d49a"
+        },
+        {
+            "type": "java",
+            "name": "breakContinue",
+            "request": "launch",
+            "mainClass": "breakContinue",
+            "projectName": "boot_camp_7101d49a"
+        },
+        {
+            "type": "java",
+            "name": "wb5_8",
+            "request": "launch",
+            "mainClass": "wb5_8",
+            "projectName": "boot_camp_7101d49a"
+        },
+        {
+            "type": "java",
+            "name": "wb5_6",
+            "request": "launch",
+            "mainClass": "wb5_6",
+            "projectName": "boot_camp_7101d49a"
+        },
+        {
+            "type": "java",
+            "name": "wb5_5",
+            "request": "launch",
+            "mainClass": "wb5_5",
+            "projectName": "boot_camp_7101d49a"
+        },
+        {
+            "type": "java",
+            "name": "whileloop",
+            "request": "launch",
+            "mainClass": "whileloop",
+            "projectName": "boot_camp_7101d49a"
+        },
+        {
+            "type": "java",
+            "name": "chours",
+            "request": "launch",
+            "mainClass": "chours",
+            "projectName": "boot_camp_7101d49a"
+        },
+        {
+            "type": "java",
+            "name": "Launch with Arguments Prompt",
+            "request": "launch",
+            "mainClass": "",
+            "args": "${command:SpecifyProgramArgs}"
+        },
+        {
+            "type": "java",
+            "name": "Launch External Terminal",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
+            "name": "Attach",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of the debuggee>"
+        },
+        {
+            "type": "java",
+            "name": "parametar",
+            "request": "launch",
+            "mainClass": "parametar",
+            "projectName": "boot_camp_7101d49a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "bus",
+            "request": "launch",
+            "mainClass": "bus",
+            "projectName": "boot_camp_7101d49a"
+        },
+        {
+            "type": "java",
+            "name": "first",
+            "request": "launch",
+            "mainClass": "first",
+            "projectName": "boot_camp_7101d49a"
+        }
+    ]
+}
