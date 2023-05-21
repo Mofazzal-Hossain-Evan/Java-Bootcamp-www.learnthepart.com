@@ -5,7 +5,7 @@ public class wb6_14 {
 
     public static void main(String[] args) {
 
-        int[][] array = new int[100][10];
+        int[][] array = new int[2][5];
 
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
@@ -17,7 +17,7 @@ public class wb6_14 {
 
     public static int randomNumber() {
 
-        double randomNumber = Math.random()*100;
+        double randomNumber = Math.random()*5;
         return (int)randomNumber;
         
     }
