@@ -141,4 +141,6 @@ public class TicTacToe {
 
         return count;
     }
+
+    scan.close();
 }
