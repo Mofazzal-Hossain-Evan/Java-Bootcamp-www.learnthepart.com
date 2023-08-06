@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "carProject.Main",
+            "projectName": "boot_camp_7101d49a"
+        },
+        {
+            "type": "java",
             "name": "wb5_10",
             "request": "launch",
             "mainClass": "wb5_10",
