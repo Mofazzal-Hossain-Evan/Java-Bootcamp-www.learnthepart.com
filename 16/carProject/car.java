@@ -1,9 +1,13 @@
 package carProject;
+
+import java.util.Arrays;
+
 public class car {
    private String make;
     private double price;
     private int year;
     private String color;
+   String[] parts;
     
 
     public car(String make, double price, int year, String color) {
@@ -11,6 +15,7 @@ public class car {
         this.price = price;
         this.year = year;
         this.color = color;
+        this.parts = Arrays.copyOf(parts, parts.length);
     }
     
     public car(car source) {

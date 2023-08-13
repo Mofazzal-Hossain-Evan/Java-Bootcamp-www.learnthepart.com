@@ -8,7 +8,7 @@ public class Main {
         car nissan2 = nissan;
 
         
-        
+        System.out.println(nissan.parts);
         nissan.drive();
 
 
