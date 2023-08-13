@@ -7,7 +7,7 @@ public class car {
     private double price;
     private int year;
     private String color;
-    String[] parts;
+    private String[] parts;
     
 
     public car(String make, double price, int year, String color, String[] parts) {
@@ -15,8 +15,8 @@ public class car {
         this.price = price;
         this.year = year;
         this.color = color;
-        //this.parts = Arrays.copyOf(parts, parts.length);
-        this.parts = parts;
+        this.parts = Arrays.copyOf(parts, parts.length);
+        //this.parts = parts; 
     }
     
     public car(car source) {
@@ -57,6 +57,10 @@ public class car {
 
     public void setColor(String color) {
         this.color = color;
+    }
+
+    public String[] getParts() {
+        return this.parts;
     }
 
     public void drive() {
