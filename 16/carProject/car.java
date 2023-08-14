@@ -25,6 +25,7 @@ public class car {
         this.price = source.price;
         this.year = source.year;
         this.color = source.color;
+        this.parts = Arrays.copyOf(source.parts, source.parts.length);
     }
 
     public String getMake() {
