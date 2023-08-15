@@ -76,5 +76,13 @@ public class car {
     }
 
 
+    public String toString() {
+    return "make: " + this.make + " .\n"
+         + "price: " + this.price + " .\n"
+         + "Year: " + this.year + " .\n"
+         + "Color: " + this.color + " .\n"
+         + "Parts: " + Arrays.toString (this.parts) + " .\n";
+    }
+
 
 }

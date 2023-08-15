@@ -18,10 +18,13 @@ public class Main {
 
        
 
-     String[] outsideVariable= nissan.getParts();
-     outsideVariable[1] = "hlw";
+     //String[] outsideVariable= nissan.getParts();
+     //outsideVariable[1] = "hlw";
 
-     System.out.println(Arrays.toString(nissan.getParts()));
+     System.out.println(Arrays.toString(nissan2.getParts()));
+     System.out.println(nissan);
+     System.out.println(dodge);
+     System.out.println(nissan2);
 
 
         
