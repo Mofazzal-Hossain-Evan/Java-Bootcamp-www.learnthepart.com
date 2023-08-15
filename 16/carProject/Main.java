@@ -9,10 +9,13 @@ public class Main {
 
         car nissan = new car("Nissan", 1000, 2020, "Green", parts);
         car dodge = new car("Dodge", 1234,1999,"Blue", parts);
+        car nissan2 = new car(nissan);
+        nissan2.setParts(new String[]{"tires","filter"});
         
 
         //parts[0] = "rimm";
         //System.out.println(Arrays.toString(nissan.parts));
+
        
 
      String[] outsideVariable= nissan.getParts();

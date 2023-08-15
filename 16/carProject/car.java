@@ -62,7 +62,13 @@ public class car {
 
     public String[] getParts() {
         return this.parts;
+    } 
+
+    public void setParts(String[] parts) {
+        this.parts = Arrays.copyOf(parts,parts.length);
     }
+
+
 
     public void drive() {
         System.out.println("you bought the beautiful car "+this.year+" "+this.color);
