@@ -2,7 +2,7 @@ package carProject;
 
 import java.util.Arrays;
 
-public class car {
+public class Car {
    private String make;
     private double price;
     private int year;
@@ -10,7 +10,7 @@ public class car {
     private String[] parts;
     
 
-    public car(String make, double price, int year, String color, String[] parts) {
+    public Car(String make, double price, int year, String color, String[] parts) {
         this.make = make;
         this.price = price;
         this.year = year;
@@ -19,7 +19,7 @@ public class car {
         //this.parts = parts; 
     }
     
-    public car(car source) {
+    public Car(Car source) {
         
         this.make = source.make;
         this.price = source.price;
