@@ -9,8 +9,14 @@ public class Dealarship {
 
 public Dealarship() {
     this.cars = new Car[3];
-    System.out.println(Arrays.toString(cars));
+    //System.out.println(Arrays.toString(cars));
     
+}
+
+public void setCar(Car car, int index) {
+        this.cars[index] = new Car(car);
+
+
 }
     
 }
