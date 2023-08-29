@@ -13,9 +13,9 @@ public Dealarship() {
     
 }
 
-public void setCar(Car car, int index) {
-        this.cars[index] = new Car(car);
-
+public void setCar(Car carr, int index) {
+        this.cars[index] = new Car(carr);
+//System.out.println(Arrays.toString(cars));
 
 }
     
